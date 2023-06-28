@@ -32,7 +32,11 @@ message buffer is 1024 charecter and there is no limit or filter to check that.
 
 # How to compile and run
 ## by using script (compile-code.sh)
-`./compile-code.sh`
+### compile server:
+`./compile-code.sh server`
+### compile client:
+`./compile-code.sh client`
+
 
 ## manual compile:
 #### to compile chat (client) by using command
