@@ -1,7 +1,16 @@
 # Online-Chat-SFML
 A Simple Online Broadcast Chat (Server &amp; Multi-Client) by using SFML and Boost via C++ on UDP
 
+# branch advanced-chat
+<img src="../advanced-chat/screen-2023-9-8.png" width=100% title=""/>
 
+### some note:
+needs validate entered ip and port from client.<br/>
+clients need nickname instead of ip and port beside chat.
+
+______________________________________________________________
+
+# branch master:
 ## some note:
 this project is on local so didnt do anything to save/map clients ip, client ips are same 127.0.0.1
 
