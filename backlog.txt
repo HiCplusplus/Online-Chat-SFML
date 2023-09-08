@@ -1,0 +1,26 @@
+#Server:
+server run on a port by default.
+after client sent a specific message to server, server will response with specific message to client, then server have to add that client's ip n port in variable.
+any message received except connection-request/disconnect-request will be broadcast with all (clients) ip-port sto.
+if a client is closed the application server will search then remove that ip-port from vector.
+when client connected/disconnected to server, server write client connected/disconnected.
+
+
+
+
+#Client:
+client can put custom ip n port before connect to the server. when press enter button will try to connect to that server.
+- if client enter slash will do commands and (/disconnect) will disconnect from server, /exit will close application.
+when client enter ip and port to connect to server, by default server must receive a packet or message to know this client wants connect, so client's application sends a charecter or specific message to server to tell im here an wants to connect. then server will response to that message with a specific message to tell client the connection with me is susccess.. and a message connected to server will prints in client's application. then any message sent or received by other clients, this client will receive them or can send message fine.
+when client close or exit application will send a specific message to server..
+- validate entered ip n port..
+
+#specific messages:
+~iC`us~  //sent by client to request to join to chat, means: i connect u server
+~iD`us~ //sent by client to server to tell im quit application, means: i disconnect u server
+
+
+#commnds:
+/exit /close /quit will close application
+/disconnect will disconect from current connection
+/connect <ip>:<port> <nickname> will disconnect from current and connect to that server

@@ -1,0 +1,12 @@
+#ifndef H_GAURD_SPECIFIC_MESSAGES
+#define H_GAURD_SPECIFIC_MESSAGES
+
+
+#define DEFAULT_SERVER_PORT 8888
+#define DEFAULT_CLIENT_PORT 7778
+
+#define CLIENT_REQUEST_TO_JOIN_CHAT "~iC`us~"
+#define CLIENT_REQUEST_TO_CLOSE_CHAT "~iD`us~"
+
+#define SERVER_CONNECTED_MESSAGE "[Server] you are connected.\n"
+#endif
